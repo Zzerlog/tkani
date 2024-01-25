@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Главный экран</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+<link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+
+<div class="smart-basket__wrapper"></div>
+
+<script src="./smartbasket/js/smartbasket.min.js"></script>
+
+  <script>
+    $(function () {
+      $('.smart-basket__wrapper').smbasket({
+        productElement: 'smart-basket__wrapper',
+        buttonAddToBasket: 'клас кнопки купить',
+        productPrice: 'product__price-number',
+        productSize: 'product__size-element',
+        
+        productQuantityWrapper: 'product__quantity',
+        smartBasketMinArea: 'класс корзины',
+        countryCode: '+7',
+        smartBasketCurrency: '₽',
+        smartBasketMinIconPath: './smartbasket/img/shopping-basket-wight.svg',
+
+        agreement: {
+          isRequired: true,
+          isChecked: true,
+          isLink: 'https://artstranger.ru/privacy.html',
+        },
+        nameIsRequired: false,
+      });
+    });
+  </script>
+<body>
+
+	<div class="description">
+		<div class="logo">Ночь и день</div>
+		<p>"Ночь и День" - это компания, которая специализируется на производстве и продаже высококачественного постельного белья. Наша миссия - обеспечить нашим клиентам комфортный и уютный сон, предлагая широкий выбор постельных принадлежностей, выполненных из лучших материалов и в разнообразных стилях.</p>
+		<a href="VhodnoeOkno.html">
+	</div>
+	<div class="swiper slider slider_main">
+		<div class="swiper-wrapper slier__wrapper">
+
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" href="oformlenie.html" data-swiper-parallax="20%" style="background-image: url(images/1.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/2.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/3.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/4.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/5.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/6.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/7.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/9.jpg);"></div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="swiper slider slider_bg">
+		<div class="swiper-wrapper slier__wrapper">
+
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/1.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/2.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/3.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/4.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/5.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/6.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/7.jpg);"></div>
+			</div>
+			<div class="swiper-slide slider__item">
+				<div class="slider__img" data-swiper-parallax="20%" style="background-image: url(images/9.jpg);"></div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="libs/swiper/swiper-bundle.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>
